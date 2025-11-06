@@ -8,16 +8,22 @@
     "account.note.metThrough": "{{location}} で会いました",
     "account.openProfile.title": "{{app}} のプロファイルを開く",
     "account.pendingUpdate.message": "このアカウントに関するすべての情報はまだ収集されていません。メモ、プロフィール情報、リンクが欠落している可能性があります。",
-    "account.status.askMe": "質問する",
-    "account.status.away": "不在",
-    "account.status.awayPrivate": "不在（非公開）",
-    "account.status.busy": "作業中",
-    "account.status.doNotDisturb": "取込中",
-    "account.status.joinMe": "参加してください",
-    "account.status.joinMePrivate": "参加してください（非公開）",
+    
+    // VRChat Status Translations
+    "account.status.joinMe": "だれでもおいで",
+    "account.status.joinMePrivate": "だれでもおいで（非公開）",
     "account.status.online": "オンライン",
     "account.status.onlinePrivate": "オンライン（非公開）",
+    "account.status.askMe": "きいてみてね",
+    "account.status.doNotDisturb": "取り込み中",
+    
+    // Resonite Status Translations
     "account.status.sociable": "ひまです",
+    "account.status.sociablePrivate": "ひまです（非公開）",
+    "account.status.away": "退席中",
+    "account.status.awayPrivate": "退席中（非公開）",
+    "account.status.busy": "取込中",
+    
     "address.loadMore.label": "さらに読み込み中 (残り {{remaining}} 件)",
     "address.loadMore.title": "",
     "address.loadingMore.label": "さらに結果を読み込み中...",
@@ -37,7 +43,6 @@
     "addressBook.search.confusables.example": "名前検索時に、キリル文字やラテン文字と視覚的に類似した特殊文字を変換します。",
     "addressBook.search.docs.link": "ブラウザで検索ドキュメントを開いてください。",
     "addressBook.search.docs.title": "ブラウザで https://docs.hai-vr.dev/docs/xyvr/search を開いてください",
-    "addressBook.search.hasAlt.example": "ユーザーが所有している際に使用します。",
     "addressBook.search.links.example": "リンク内を検索する際に使用します。",
     "addressBook.search.multipleApps.example": "Resoniteアカウント所有者で、VRChatアカウントも所有しているユーザーを検索する場合などに使用します。",
     "addressBook.search.on.example": "どのアプリでも現在オンライン中のユーザーを検索する場合に使用します。",
@@ -82,5 +87,9 @@
     "ui.showNotes.title": "メモを表示するように切り替え",
     "ui.showOnlyContacts.title": "連絡先のみを表示するように切り替え",
     "ui.switchToCompactMode.title": "コンパクトモードに切り替える",
-    "ui.switchToFullMode.title": "フルモードに切り替える"
+    "ui.switchToFullMode.title": "フルモードに切り替える",
+    // V0.0.1-alpha.15
+    "ui.joinSession.title": "セッションに参加",
+    "settings.resonite.showSubSessions.title": "ユーザーが複数のセッションにいる場合、フォーカスされているセッション内に他のセッションを表示する",
+    "addressBook.search.hasAltAccount.example": "同じアプリ上で複数のアカウントを持つユーザー向けに使用します。",
 }
